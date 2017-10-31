@@ -1,0 +1,31 @@
+{
+  "name": "wuhan-subway-passenger-flow",
+  "version": "1.0.0",
+  "description": "武汉地铁客流数据API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarkbyte/wuhan-subway-passenger-flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quarkbyte/wuhan-subway-passenger-flow/issues"
+  },
+  "homepage": "https://github.com/quarkbyte/wuhan-subway-passenger-flow#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "encoding": "^0.1.12",
+    "express": "^4.16.2",
+    "iconv-lite": "^0.4.19",
+    "later": "^1.2.0",
+    "request": "^2.83.0",
+    "sqlite3": "^3.1.13",
+    "superagent": "^3.8.0",
+    "superagent-charset": "^1.2.0",
+    "urlencode": "^1.1.0"
+  }
+}
